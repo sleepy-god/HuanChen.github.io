@@ -433,13 +433,6 @@
     </url>
     
     <url>
-        <loc>https://sleepy-god.github.io/HuanChen.github.io/tags/Js/</loc>
-        <lastmod>2022-12-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
         <loc>https://sleepy-god.github.io/HuanChen.github.io/tags/%E5%BF%83%E6%83%85/</loc>
         <lastmod>2022-12-16</lastmod>
         <changefreq>weekly</changefreq>
@@ -448,6 +441,13 @@
     
     <url>
         <loc>https://sleepy-god.github.io/HuanChen.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+        <lastmod>2022-12-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://sleepy-god.github.io/HuanChen.github.io/tags/Js/</loc>
         <lastmod>2022-12-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
