@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>二进制</title>
+      <link href="/2023/10/13/%E8%B5%B0%E8%BF%9B%E4%BA%8C%E8%BF%9B%E5%88%B6/"/>
+      <url>/2023/10/13/%E8%B5%B0%E8%BF%9B%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="二进制计算"><a href="#二进制计算" class="headerlink" title="二进制计算"></a>二进制计算</h1><p>计算机的世界里缺少不了二进制的存在，我们总听到计算机是0和1组成的，而这两个数字恰恰就是二进制的必备元素</p><h2 id="十进制与二进制"><a href="#十进制与二进制" class="headerlink" title="十进制与二进制"></a>十进制与二进制</h2><ul><li><p>十进制：回到小学初识数字的时候，从小到大接触的数字中从0数到9，比9大一个数就要进一位也就是10，这就是十进制，即逢10进1，这就是十进制</p></li><li><p>二进制：从0开始数，当数到2时就进一位，即逢2进一，例如： 0，1，10，11，100，101，110,111。这就是二进制</p></li></ul><h2 id="转换"><a href="#转换" class="headerlink" title="转换"></a>转换</h2><p>初次接触二进制总会觉得别扭，例如101，这个数字在十进制中是<strong>一百零一</strong>，在二进制中他就代表了<strong>数字5</strong>，这时候脑袋上可能会有大大的问号，怎么就知道他就是5呢，这里就要说一下进制转换了</p><p>当我们已知一个十进制数字的时候怎么转换成二进制呢，（余数法）方法如下：</p><ol><li>5 ÷ 2 &#x3D; 2 … 1</li><li>2 ÷ 2 &#x3D; 1 … 0</li><li>1 ÷ 2 &#x3D; 0 … 1</li></ol><p>我们从上到下将余数拼接就是5（十进制）&#x3D; 101（二进制）</p><p>如果这里还是没看懂那可以看接下来的解释</p><p>我们从0开始数（<strong>下面示例中序号为十进制，计算为二进制</strong>）</p><ol start="0"><li>0</li><li>0 + 1 &#x3D; 1</li><li>1 + 1 &#x3D; 10(二进制)，二进制逢2进1，此处进位即10(二进制)</li><li>10 + 1 &#x3D; 11</li><li>11 + 1 &#x3D; 100，二进制逢2进1，进位后为20，同理进位即100</li><li>100 + 1 &#x3D; 101</li></ol><h3 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h3><p>熟练转换以后我们可以把二进制和十进制做一个对比：</p><p><img src="https://snow-cdn-1259430989.cos.ap-beijing.myqcloud.com/blog/%E4%BA%8C%E8%BF%9B%E5%88%B61.jpg" alt="十进制与二进制"></p><p>将二进制中只有1和0的情况提取出来，就行成了下面这样：</p><p><img src="https://snow-cdn-1259430989.cos.ap-beijing.myqcloud.com/blog/%E4%BA%8C%E8%BF%9B%E5%88%B62.jpg" alt="十进制与二进制"></p><p>这个时候把列表反过来看：</p><p><img src="https://snow-cdn-1259430989.cos.ap-beijing.myqcloud.com/blog/%E4%BA%8C%E8%BF%9B%E5%88%B63.jpg" alt="十进制与二进制"></p><p>把这个对照变成二进制再看一下：</p><p><img src="https://snow-cdn-1259430989.cos.ap-beijing.myqcloud.com/blog/%E4%BA%8C%E8%BF%9B%E5%88%B64.png" alt="十进制与二进制"></p><p>回过头再看一下最一开始的例子即 5(十进制) 转换为二进制 101：</p><p><img src="https://snow-cdn-1259430989.cos.ap-beijing.myqcloud.com/blog/%E4%BA%8C%E8%BF%9B%E5%88%B65.png" alt="十进制与二进制"></p><p>以上就是十进制转二进制全过程了</p><p>而二进制转换十进制就是将表中对应的数字上下相乘，然后结果相加即可</p><h2 id="字节"><a href="#字节" class="headerlink" title="字节"></a>字节</h2><p>在计算机系统中 <strong>字节(byte)</strong> 是最基础的计量单位，一个字节代表了一个8位长的二进制数字，每四个字节拼在一起代表了一个字</p><p>简单标识就是如下面原码所示，00000000这个八个数字组成一个字节，四个字节组成了一个数字5，即</p><pre><code>00000000 00000000 00000000 00000101 </code></pre><h2 id="原码"><a href="#原码" class="headerlink" title="原码"></a>原码</h2><p>原码：即原数字转换为二进制后的二进制数</p><p>5的原码为</p><pre><code>00000000 00000000 00000000 00000101</code></pre><h2 id="反码"><a href="#反码" class="headerlink" title="反码"></a>反码</h2><p>反码：反码即对原码进行取反，将所有的0换为1，所有的1换为0</p><p>5的反码为</p><pre><code>11111111 11111111 11111111 11111010</code></pre><h2 id="补码"><a href="#补码" class="headerlink" title="补码"></a>补码</h2><p>补码：补码是反码+1</p><p>所以上述的补码为</p><pre><code>11111111 11111111 11111111 11111010 + 1 =11111111 11111111 11111111 11111011</code></pre><p>补码在二进制中主要表示一个整数的负数</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程基础 </tag>
+            
+            <tag> 计算机基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Stable Diffusion体验（本地部署篇）</title>
       <link href="/2023/07/17/Stable%20Diffusion%E4%BD%93%E9%AA%8C%EF%BC%88%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E7%AF%87%EF%BC%89/"/>
       <url>/2023/07/17/Stable%20Diffusion%E4%BD%93%E9%AA%8C%EF%BC%88%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E7%AF%87%EF%BC%89/</url>
@@ -559,9 +586,9 @@
             
             <tag> 前端 </tag>
             
-            <tag> Js </tag>
-            
             <tag> 工具 </tag>
+            
+            <tag> Js </tag>
             
         </tags>
       
