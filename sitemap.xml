@@ -272,15 +272,6 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/index.html</loc>
-        
-        <lastmod>2022-09-21</lastmod>
-        
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    
-    <url>
         <loc>http://www.sleepygod.xyz/categories/index.html</loc>
         
         <lastmod>2022-09-21</lastmod>
@@ -291,6 +282,15 @@
     
     <url>
         <loc>http://www.sleepygod.xyz/link/index.html</loc>
+        
+        <lastmod>2022-09-21</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.sleepygod.xyz/tags/index.html</loc>
         
         <lastmod>2022-09-21</lastmod>
         
@@ -366,13 +366,6 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/Js%E5%9F%BA%E7%A1%80/</loc>
-        <lastmod>2023-10-13</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
         <loc>http://www.sleepygod.xyz/tags/%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
@@ -408,7 +401,7 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/React/</loc>
+        <loc>http://www.sleepygod.xyz/tags/Js%E5%9F%BA%E7%A1%80/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -436,7 +429,7 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
+        <loc>http://www.sleepygod.xyz/tags/React/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -451,6 +444,13 @@
     
     <url>
         <loc>http://www.sleepygod.xyz/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+        <lastmod>2023-10-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.sleepygod.xyz/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -520,13 +520,6 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/%E5%B7%A5%E5%85%B7/</loc>
-        <lastmod>2023-10-13</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
         <loc>http://www.sleepygod.xyz/tags/Js/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
@@ -534,14 +527,7 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
-        <lastmod>2023-10-13</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
-        <loc>http://www.sleepygod.xyz/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+        <loc>http://www.sleepygod.xyz/tags/%E5%B7%A5%E5%85%B7/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -569,6 +555,20 @@
     </url>
     
     <url>
+        <loc>http://www.sleepygod.xyz/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
+        <lastmod>2023-10-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.sleepygod.xyz/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+        <lastmod>2023-10-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
         <loc>http://www.sleepygod.xyz/tags/%E8%81%94%E5%90%88%E5%BC%80%E5%8F%91/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
@@ -576,14 +576,14 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/%E7%BE%8E%E5%9B%A2/</loc>
+        <loc>http://www.sleepygod.xyz/tags/%E7%BD%91%E6%98%93/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/tags/%E7%BD%91%E6%98%93/</loc>
+        <loc>http://www.sleepygod.xyz/tags/%E7%BE%8E%E5%9B%A2/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -620,13 +620,6 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/categories/JavaScript/</loc>
-        <lastmod>2023-10-13</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
         <loc>http://www.sleepygod.xyz/categories/%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
@@ -634,7 +627,7 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/categories/React%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+        <loc>http://www.sleepygod.xyz/categories/JavaScript/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -648,7 +641,7 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/categories/TypeScript/</loc>
+        <loc>http://www.sleepygod.xyz/categories/React%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -656,6 +649,13 @@
     
     <url>
         <loc>http://www.sleepygod.xyz/categories/AI/</loc>
+        <lastmod>2023-10-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>http://www.sleepygod.xyz/categories/TypeScript/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -690,14 +690,14 @@
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+        <loc>http://www.sleepygod.xyz/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
     
     <url>
-        <loc>http://www.sleepygod.xyz/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+        <loc>http://www.sleepygod.xyz/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
         <lastmod>2023-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
